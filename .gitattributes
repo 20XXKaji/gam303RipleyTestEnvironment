@@ -1,0 +1,8 @@
+# Track all binary assets with LFS
+*.uasset filter=lfs diff=lfs merge=binary -text
+*.umap filter=lfs diff=lfs merge=binary -text
+*.upk filter=lfs diff=lfs merge=binary -text
+*.pak filter=lfs diff=lfs merge=binary -text
+*.udk filter=lfs diff=lfs merge=binary -text
+*.bnk filter=lfs diff=lfs merge=binary -text
+*.ini filter=lfs diff=lfs merge=binary -text
